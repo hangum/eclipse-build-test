@@ -31,7 +31,7 @@ public class ExampleMailClickTest extends UITestCaseSWT {
 		ui.click(new TreeItemLocator("me@this.com", new ViewLocator("com.example.mail.navigationView")));
 		ui.click(new ContributedToolItemLocator("com.example.mail.open"));
 		ui.click(new ContributedToolItemLocator("com.example.mail.openMessage"));
-		ui.wait(new ShellShowingCondition("Open1"));
+		ui.wait(new ShellShowingCondition("Open"));
 		ui.click(new ButtonLocator("OK"));
 		ui.wait(new ShellDisposedCondition("Open"));
 		
