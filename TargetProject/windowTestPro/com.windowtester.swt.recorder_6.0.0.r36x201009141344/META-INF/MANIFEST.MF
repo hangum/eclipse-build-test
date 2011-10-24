@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-Activator: com.windowtester.swt.event.recorder.EventRecorderPlu
+ gin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy
+Export-Package: com.windowtester.controller,com.windowtester.net,com.w
+ indowtester.swt.bootstrap,com.windowtester.swt.event.model,com.window
+ tester.swt.event.model.dnd,com.windowtester.swt.event.model.factory,c
+ om.windowtester.swt.event.recorder,com.windowtester.swt.event.recorde
+ r.jface,com.windowtester.swt.event.recorder.workbench,com.windowteste
+ r.swt.event.server,com.windowtester.swt.event.spy,com.windowtester.sw
+ t.util
+Bundle-Version: 6.0.0.r36x201009141344
+Eclipse-LazyStart: true 
+Bundle-Name: %pluginName
+Bundle-ClassPath: recorder.jar
+Bundle-ManifestVersion: 2
+Bundle-Vendor: %providerName
+Bundle-SymbolicName: com.windowtester.swt.recorder; singleton:=true
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime,com.instantiations.eclipse.de
+ bug,com.windowtester.swt.runtime,com.windowtester.swing.recorder;visi
+ bility:=reexport,com.windowtester.swing.runtime,com.windowtester.runt
+ ime
+
